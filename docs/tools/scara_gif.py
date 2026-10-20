@@ -44,7 +44,7 @@ def elbows(l, r):  # forward_kinematics.cpp: passive elbow angles theta3, theta4
     return t3, t4
 
 light = np.array([0.35, -0.5, 0.8]); light /= np.linalg.norm(light)
-def render(q, view=None, size=(5.6, 4.2)):
+def render(q, view=None, size=(9.0, 6.8)):
     _, tf = link_transforms(urdf, q)
     fig = plt.figure(figsize=size, dpi=100); ax = fig.add_subplot(111, projection="3d"); pts = []
     for name, v in meshes.items():

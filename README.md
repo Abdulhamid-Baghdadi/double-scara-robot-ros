@@ -4,7 +4,8 @@ A ROS (Melodic) control stack for a **double SCARA robot**: a planar five-bar pa
 It covers forward and inverse kinematics, a geometric collision checker, a terminal user interface, live RViz visualisation from a URDF model, and an Arduino `rosserial` bridge to the real Makeblock smart servos.
 
 <p align="center">
-  <img src="docs/images/hero.png" alt="CAD render of the double SCARA robot, from above and from below" width="900">
+  <img src="docs/images/hero.gif" alt="Animated CAD model of the double SCARA robot, seen from above and from below, tracing a figure-eight" width="820"><br>
+  <sub>The CAD model in motion: the two servos (black) on top drive the five-bar linkage underneath, which traces a figure-eight while the pusher taps.</sub>
 </p>
 
 <p align="center">
